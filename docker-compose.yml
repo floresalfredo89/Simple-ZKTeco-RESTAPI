@@ -4,4 +4,4 @@ services:
     restart: always
     ports:
       # "Host_port:container_port"
-      - "8084:8080"
+      - "8080:8080"
