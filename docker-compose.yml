@@ -1,0 +1,7 @@
+services:
+  checador_rest:
+    build: .
+    restart: always
+    ports:
+      # "Host_port:container_port"
+      - "8084:8080"
